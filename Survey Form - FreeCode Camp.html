@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Meleyotan Oyeleke">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="css/survey.css" rel="stylesheet">
+
+    <title>Survey Form - FreeCode Camp</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="title">
+            <h1>FreeCode Camp Survey Form</h1>
+            <p id="title-paragraph">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <!--Survey Form-->
+        <div id="survey_section">
+            <form>
+            <div class="form-group">
+                <label for="name">
+                    <p>Name</p><input class="normal-input" type="text" placeholder="Enter your name" autofocus required>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="email">
+                    <p>Email</p><input class="normal-input" type="text" placeholder="Enter your email address" required>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="age">
+                <p>Age(optional)</p><input class="normal-input" type="number" placeholder="Age" required>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="name">
+                    <p>Which options best describes your role?</p><select class="normal-input" type="text" placeholder="Enter your name" required>
+                    <option value="student">Student</option>
+                    <option value="student">Full Time Learner</option>
+                    <option value="student">Full Time Job</option>
+                    <option value="student">Other</option>       
+                    </select>
+                </label>
+            </div>
+            <div class="form-group" id="radio-form">
+                    <p>Would you reccommend freecode camp for a friend?</p>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="radio" placeholder="Enter your name" value="radio">Definitely</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="radio" placeholder="Enter your name" value="radio">Maybe</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="radio" placeholder="Enter your name" value="radio">Not sure</label>
+            </div>
+            <div class="form-group" id="checkout form">
+                    <p>What would you like to see improved? (Check all that apply)</p>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Front-end Projects</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Back-end Projects</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Data Visualization</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Challenges</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Open Source Community</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Gitter Help Rooms</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Video</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">City Meetups</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Wiki</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Forum</label>
+                    <label class="radio-buttons-label"><input class="radio-buttons" type="checkbox" placeholder="Enter your name">Addittional Courses</label>
+            </div>
+            <div class="form-group">
+                <label for="name">
+                    <p>Any comments or suggestions?</p><textarea class="normal-input" id="textarea" type="textarea" placeholder="Enter comments here"></textarea>
+                </label>
+            </div>
+            <div class="form-group normal-input" id="submit-button-container">
+                <input id="submit-button" type="submit"></input>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

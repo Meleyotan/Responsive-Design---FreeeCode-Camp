@@ -1,0 +1,88 @@
+#container{
+    font-family: 'Roboto', sans-serif;
+  }
+  p{
+    margin-bottom: 5px;
+  }
+  p::selection{
+    color: rgb(9, 190, 190);
+  }
+  h1{
+    margin-bottom: 0;
+    text-align: center;
+  }
+  h1::selection{
+    color: rgb(9, 190, 190);
+  }
+  #title-paragraph{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+  }
+  #survey_section{
+    background-color: #1b1b32;
+    color:#ffffff;
+    padding: 25px;
+    max-width: 800px;
+    margin-inline: auto;
+    box-sizing: border-box;
+  }
+  .form-group{
+    margin-top: 20px;
+    margin-inline:auto;
+    width: 90%;
+  }
+  input{
+   background-color: #ffffff;
+   border: none;
+   max-width: 720px;
+   height: 2.375rem;
+  }
+  select{
+      height: 2.375rem;
+  }
+  select[type=text]{
+      font-family: inherit;
+      padding-left: 10px;
+      font-size: 16px;
+  }
+  .normal-input{
+    width: 100%;
+  }
+  .radio-buttons-label{
+    display: flex;
+    align-items: center;
+  }
+  .radio-buttons{
+    height: 2rem;
+  }
+  #textarea{
+    height: 8rem;
+  }
+  textarea[type=textarea]{
+    font-size: 16px;
+    font-family: inherit;
+    padding-left: 15px;
+  }
+  input::placeholder{
+    font-weight: lighter;
+    padding-left: 10px;
+    color: #1b1b32;
+}
+input.form:enabled{
+    height: 30px;
+}
+input[type=text],input[type=email],input[type=number]{
+    color: #1b1b32;
+    font-size: 16px;
+    padding-left: 5px;
+}
+#submit-button-container{
+    text-align: center;
+    background-color: rgb(0, 187, 125);
+}
+#submit-button{
+    font-size: 20px;
+    background-color: rgb(0, 187, 125);
+    color: #ffffff;
+}
